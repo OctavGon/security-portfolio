@@ -5,7 +5,7 @@ Documented cloud security investigations, built in a live Azure tenant
 
 Target role: SOC Analyst / Security Analyst
 Currently: [Studying for Security+] | [Laredo]
-Contact: [octavgonzalez@yahoo.com] · [LinkedIn URL]
+Contact: [octavgonzalez@yahoo.com] · []
 
 ## Investigations
 | # | Title | Focus | Write-up |
