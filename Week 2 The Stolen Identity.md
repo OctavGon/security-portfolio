@@ -13,6 +13,10 @@ Step 1- A user was tricked by a phishing attack, completed MFA, and had their se
 
 Step 2- Using the Owner permissions, the attacker created a new secret for the older application. This allowed them to access the application directly and use its permissions without needing to sign in as a regular user. The secret was also set to expire almost 100 years later.
 <img width="1514" height="971" alt="Screenshot 2026-11-16 092739" src="https://github.com/user-attachments/assets/e2a22850-e26c-4365-b264-aa9650e403a4" />
+
+Step 3- Since the first secret could eventually expire, the attacker created their own application and added it as an Owner of the older app. This gave them a way to create new secrets and keep access to the older application, even if the original secret was discovered and removed. Now i look for the app created by the attacker.
+
+
 ## What broke / what surprised me
 The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
 
