@@ -25,10 +25,13 @@ Step 5-Finally, the attacker set up a redirect link that sent users to a website
 This is what we call a confused deputy attack. The legacy app was a trusted service that acted on a request is should have not never auithorized.
 
 ## What broke / what surprised me
-The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
-What i was surprised by was the ability for normal users to make big decisions with standard access like registering apps. It seems like a huge privilege given by accident or was overlooked. 
+What i was surprised by was the ability for normal users having ownership of an app. It seems like a huge privilege given by accident or was overlooked. 
+
+
 ## Findings and recommendations
-What you determined, plus 2 or 3 recommendations as if you were reporting to the resource owner.
-What i would do or recommend doing after or future would be revoking the client secret, removing the rogue service principal from owners, 
+I would recommend revoking the client secret , remove the rogue service principal, delete the custom API scope, revoke the OAuth2PermissionGrant explicitly, because containment does not remove it,  remove the attacker redirect URI, review and reduce the Graph application permissions, disable default user app registration, audit every app registration's Owners list the same way you audit directory role membership, alert on new client secrets and new redirect URIs.
+
+
 ## What I learned
-3 to 5 bullets. At least one technical, one "what I'd do differently."
+- That a attacker can anchor themselves to a app as second owner to create new credentials if the previous ones get rotated or removed.
+- I learned that an exposed API paired with a redirect URI pointing at attacker-controlled infrastructure would do.
