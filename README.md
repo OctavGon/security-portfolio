@@ -12,7 +12,7 @@ Contact: [octavgonzalez@yahoo.com] · []
 |---|-------|-------|----------|
 | 1 | Operation Dead Deploy | Governance forensics, deployment audit trail | [Write up#1](https://github.com/OctavGon/security-portfolio/blob/main/Week%201%20Operation%20Dead%20Deploy.md) |
 | 2 | The Stolen Identity | App registration attack kill chain (Entra ID) | [Write up #2](https://github.com/OctavGon/security-portfolio/blob/main/Week%202%20The%20Stolen%20Identity.md) |
-| 3 | Privilege Audit | RBAC and least privilege | coming, week 3 | [Write up #3](https://github.com/OctavGon/security-portfolio/blob/main/Week%203%20Privilege%20Audit.md) |
+| 3 | Privilege Audit | RBAC and least privilege | coming, week 3 | [Write up #3](https://github.com/OctavGon/security-portfolio/blob/main/Week%203%20Privilege%20Audit.md)
 | 4 | Spin Up and Lock Down | Compute attack surface | coming, week 4 |
 | 5 | Network the Operative | Network segmentation | coming, week 5 |
 | 6 | Bucket Looting | Storage exposure hunting | coming, week 6 |
